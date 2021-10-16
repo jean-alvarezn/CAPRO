@@ -1,0 +1,39 @@
+/*Color naranjo de capro : #FC8250*/
+/*Color gris de capro : #6E6E6E*/
+
+
+/*Propiedades del nav*/
+.navbar-personalizado {
+    background-color:#6E6E6E;
+}
+
+.nav-link.active {
+    color: white;
+}
+
+.boton-personalizado {
+    background:#FC8250;
+    color: white;
+}
+
+.boton-personalizado:hover {
+    background:#df3f00;
+    color: white;
+}
+
+/*Propiedades del body*/
+
+.contenedor-primario {
+    width: 100%;
+    height: 374px;
+    font-weight: bold;
+}
+
+.figura-primaria {
+    width: 440px;
+    height:440px;
+    border-radius: 50%;
+    background: #FC8250;
+    margin-top: 20px;
+    margin-right: 20px;
+}
