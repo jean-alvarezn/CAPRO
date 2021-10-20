@@ -21,19 +21,21 @@
     color: white;
 }
 
+
 /*Propiedades del body*/
+
+body {
+    background:#b13606;
+}
+
+
 
 .contenedor-primario {
     width: 100%;
     height: 374px;
     font-weight: bold;
+    color: white;
+    font-size: 55px;
+    
 }
 
-.figura-primaria {
-    width: 440px;
-    height:440px;
-    border-radius: 50%;
-    background: #FC8250;
-    margin-top: 20px;
-    margin-right: 20px;
-}
