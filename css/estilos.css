@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
 /*Color naranjo de capro : #FC8250*/
 /*Color gris de capro : #6E6E6E*/
 
@@ -26,16 +33,46 @@
 /*Propiedades del body*/
 
 body {
-    background:#b13606;
+    background:#f1f1f1;
 }
 
-/* .contenedor-primario {
-    font-weight: bold;
-    color: white;
-    font-size: 55px;
-    background: red; 
+.contenedor-primario {
     width: 100%;
-} */
+    height: 500px;
+    background: #FC8250;
+    background-image: url(../img/imagen-banner.jpg);
+}
+
+#contenedor-primario-parrafo {
+    font-size:50px;
+    text-align: justify;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.contenedor-divisor {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: #6E6E6E;
+    
+}
+
+.contenedor-divisor h1 {
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
