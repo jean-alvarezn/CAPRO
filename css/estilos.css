@@ -55,12 +55,22 @@ body {
     height: 100px;
     text-align: center;
     background: #6E6E6E;
+    margin-left: 0px;
     
 }
 
 .contenedor-divisor h1 {
     font-weight: bold;
     color: #fff;
+    
+}
+
+.tarjeta {
+    width: 250px;
+    height: 250px;
+    border: black solid;
+    margin-top:20px;
+    margin-bottom:20px;
     
 }
 
