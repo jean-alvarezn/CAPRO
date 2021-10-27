@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /*Color naranjo de capro : #FC8250*/
 /*Color gris de capro : #6E6E6E*/
 
+
+/*------ Seccion Index------- */
 
 /*Propiedades de la cabecera*/
 .cabecera {
@@ -156,7 +159,7 @@ h1 {
 }
 
 p {
-    color: green;
+    color: #000;
     font-size: 13px;
     font-weight: 300px;
     line-height: 22px;
@@ -178,17 +181,24 @@ p {
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
 
-h3 {
+
+.capro-columna img {
+    width: 100px;
+    height: 100px;
+}
+
+.capro-columna h3 {
     text-align: center;
-    font-weight: 600;
+    font-weight: 200;
     margin: 10px 0;
+    color: #fff;
 }
 
 .capro-columna:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 40px 10px rgba(0,0,0,0.2);
 }
 
 @media(max-width: 700px) {
@@ -251,6 +261,112 @@ h3 {
     bottom: 49%;
     opacity: 1;
 }
+
+.sobre-nosotros {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+.sobre-nosotros h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+/*------ Seccion Footer------- */
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #6E6E6E;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.contenido-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contenido-footer h3 {
+   font-size: 1.8rem;
+   font-weight: 400;
+   text-transform: capitalize;
+   line-height: 3rem;
+}
+
+.contenido-footer p {
+    max-width: 500px;
+    margin: 10px auto 0;
+    line-height: 28px;
+    font-size: 24px;
+    justify-content:center;
+}
+
+.redes-sociales {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.redes-sociales li {
+    margin: 0 10px;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #fff; 
+    justify-content:center;  
+}
+
+.redes-sociales a i {
+    font-size: 20px;
+    transition: color .4s ease;
+}
+
+.redes-sociales a:hover {
+    color:#FC8250;
+}
+
+.footer-inferior {
+    background: #3f3e3e;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-inferior p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-inferior span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+}
+
+/* .fab {
+    color: #6E6E6E;
+    font-size: 35px;
+    padding: 15px;
+    cursor: pointer;
+} */
+
+
 
 
 
