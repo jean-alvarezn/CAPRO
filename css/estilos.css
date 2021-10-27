@@ -102,6 +102,7 @@ nav img {
     border: 1px solid #FC8250;
     background: #FC8250;
     transition: 0.5s;
+    color: #fff;
 }
 
 nav .fas {
@@ -138,6 +139,117 @@ nav .fas {
         padding: 30px;
     }
     
+}
+
+/*Propiedades del cuerpo*/
+
+.capro {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: green;
+    font-size: 13px;
+    font-weight: 300px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+.capro-fila {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.capro-columna {
+    flex-basis: 31%;
+    background: #6E6E6E;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.capro-columna:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 700px) {
+    .capro-fila {
+        flex-direction: column;
+    }
+}
+
+
+.capro-ventajas {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ventajas-columna {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.ventajas-columna img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.capa {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.capa h3 {
+    margin-top:10px;
+    color: #fff;
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    translate: translateX(-25%);
+    bottom: 0;
+}
+
+.capa:hover {
+    background: rgba(252,130,80,0.8);  
+}
+
+.capa:hover h3 {
+    bottom: 49%;
+    opacity: 1;
 }
 
 
