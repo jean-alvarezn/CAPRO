@@ -120,7 +120,7 @@ nav .fas {
         display: block;
     }
     .nav-enlaces {
-        position: absolute;
+        position: fixed;
         background: #FC8250;
         height: 100vh;
         width: 200px;
@@ -275,6 +275,11 @@ p {
     font-weight: 600;
 }
 
+.sobre-nosotros p {
+    font-size: 25px;
+    line-height: 30px;
+}
+
 
 /*------ Seccion Footer------- */
 
@@ -310,6 +315,7 @@ footer {
     line-height: 28px;
     font-size: 24px;
     justify-content:center;
+    color: #fff;
 }
 
 .redes-sociales {
@@ -350,6 +356,7 @@ footer {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+    color: #fff;
 }
 
 .footer-inferior span {
@@ -359,12 +366,75 @@ footer {
 
 }
 
-/* .fab {
-    color: #6E6E6E;
-    font-size: 35px;
+/* ----Css para el formulario de contacto---- */
+
+.seccion-contacto {
+    width: 80%;
+    margin: auto;
+}
+
+.columna-contacto {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.columna-contacto div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.columna-contacto div .iconos-contacto {
+    font-size: 28px;
+    color: #FC8250;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.columna-contacto div p {
+    padding: 0;
+}
+
+.columna-contacto h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+.columna-contacto div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.columna-contacto input, .columna-contacto textarea {
+    width: 100%;
     padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.boton-formulario {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 34px;
+    font-size: 13px;
+    position: relative;
     cursor: pointer;
-} */
+    border-radius: 25px;
+    width: 150px; 
+    background-color: #FC8250;
+}
+
+.boton-formulario:hover {
+    background-color: #fa672c;
+    transition: 0.5s ease;
+    
+}
 
 
 
