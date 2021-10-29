@@ -369,7 +369,7 @@ footer {
 /* ----Css para el formulario de contacto---- */
 
 .seccion-contacto {
-    width: 80%;
+    width: 50%;
     margin: auto;
 }
 
@@ -435,6 +435,109 @@ footer {
     transition: 0.5s ease;
     
 }
+
+/* Seccion Quienes Somos */
+
+.capro-secundary {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #000;
+    font-size: 13px;
+    font-weight: 300px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+#texto-inicial2 {
+    margin-right: 70px;
+}
+
+.capro-fila-secundary {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.capro-columna-secundary {
+    flex-basis: 31%;
+    background: #FC8250;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.2s ease;
+}
+
+
+.capro-columna-secundary img {
+    width: 100px;
+    height: 100px;
+}
+
+.capro-columna-secundary h3 {
+    text-align: center;
+    font-weight: 200;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.capro-columna-secundary:hover {
+    box-shadow: 0 0 40px 10px rgba(0,0,0,0.2);
+    background: #f16832;
+}
+
+@media(max-width: 700px) {
+    .capro-fila-secundary {
+        flex-direction: column;
+    }
+
+    #texto-inicial2 {
+        margin-right: 20px;
+    }
+
+
+}
+
+
+.solicita-demo {
+    text-align: center;
+}
+
+.boton-quienes-somos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 34px;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 150px; 
+    background-color: #FC8250;
+}
+
+.boton-quienes-somos:hover {
+    background-color: #fa672c;
+    transition: 0.5s ease;
+    color: #fff;
+    
+}
+
+
 
 
 
