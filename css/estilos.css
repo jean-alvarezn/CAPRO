@@ -176,7 +176,7 @@ p {
 
 .capro-columna {
     flex-basis: 31%;
-    background: #6E6E6E;
+    background: transparent;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -194,12 +194,12 @@ p {
     text-align: center;
     font-weight: 200;
     margin: 10px 0;
-    color: #fff;
+    color: #000;
 }
 
-.capro-columna:hover {
+/* .capro-columna:hover {
     box-shadow: 0 0 40px 10px rgba(0,0,0,0.2);
-}
+} */
 
 @media(max-width: 700px) {
     .capro-fila {
