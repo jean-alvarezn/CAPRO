@@ -136,6 +136,18 @@ nav img {
 
 }
 
+.instagram {
+    background-color: #E1306C;
+    color: #fff;
+}
+
+.instagram:hover {
+    background-color: #e05583;
+    color: #fff;
+
+}
+
+
 .twitter {
     background: #55ACEE;
     color: white;
