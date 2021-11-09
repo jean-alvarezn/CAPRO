@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,8 @@
   <link rel="stylesheet" href="css/estilos.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Titillium+Web:wght@300&display=swap"
     rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/21e2ed8363.js" crossorigin="anonymous"></script>
   <title>CAPRO</title>
 </head>
@@ -29,9 +31,14 @@
     </nav>
 
     <div class="caja-texto">
-      <h1>Contacto</h1>
+      <h1>Gestion de Roles</h1>
+      <p>Entrena y capacita a tu personal a través de
+        la mejor y más flexible herramienta del mercado
+      </p>
+      <a href="contacto.html" class="btn-principal">Solicita tu DEMO!</a>
     </div>
   </div>
+
   <div class="contenedor-redes-sociales">
     <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
     <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -40,41 +47,27 @@
     <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
   </div>
 
+
 </header>
 <!-- Cabecera del Sitio -->
 
 <!-- Cuerpo del sitio -->
+
 <body>
-  <div class="seccion-contacto">
-    <div class="fila-contacto">
-      <div class="columna-contacto">
-        <center>
-          <p></p>
-          <p></p>
-        </center>
-        <form action="scriptMail.php" method="post">
-          <input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
-          <input type="email" name="correo_remitente" placeholder="Ingresa tu correo" required>
-          <input type="tel" name="telefono" placeholder="Ingresa tu numero de telefono" required>
-          <input type="text" name="asunto" placeholder="Ingresa el asunto de tu consulta" required>
-          <textarea rows="10" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
-          <center><button class="boton-formulario" type="submit">Enviar</button></center>
-        </form>
-      </div>
-    </div>
-  </div>
+  
+
 </body>
 <!-- Pie de pagina -->
 <footer>
   <div class="contenido-footer">
     <a href="index.html"><img src="img/logo_principal.JPG" alt=""></a>
     <p>Sigue nuestras redes sociales</p>
-      <ul class="redes-sociales">
-        <li><a href=""><i class="fab fa-instagram"></i></a></li>
-        <li><a href=""><i class="fab fa-twitter"></i></a></li>
-        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-        <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
-      </ul>
+    <ul class="redes-sociales">
+      <li><a href=""><i class="fab fa-instagram"></i></a></li>
+      <li><a href=""><i class="fab fa-twitter"></i></a></li>
+      <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+      <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+    </ul>
   </div>
   <div class="footer-inferior">
     <p>Copyright &copy;2021 Capro</p>
@@ -85,14 +78,12 @@
 <script>
   var navEnlaces = document.getElementById("navEnlaces");
 
-  function mostrarMenu()
-  {
-      navEnlaces.style.right = "0";
+  function mostrarMenu() {
+    navEnlaces.style.right = "0";
   }
 
-  function esconderMenu()
-  {
-      navEnlaces.style.right = "-200px";
+  function esconderMenu() {
+    navEnlaces.style.right = "-200px";
   }
 </script>
 <!-- Script para abrir y cerrar el menu -->

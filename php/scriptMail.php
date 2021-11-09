@@ -2,6 +2,7 @@
 
 $nombre = $_POST['nombre'];
 $correo_remitente = $_POST['correo_remitente'];
+$telefono = $_POST['telefono'];
 $asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 
@@ -11,6 +12,7 @@ $correo_asunto = "Contacto Web";
 $correo_cuerpo = "Nombre: $nombre.\n".
                  "Correo: $correo_remitente.\n".
                  "Asunto: $asunto.\n".
+                 "Telefono: $telefono.\n".
                  "Mensaje: $mensaje .\n".;
 $para = 'wolowizard720@gmail.com';
 $cabeceras = "De: $correo_de \r\n";
