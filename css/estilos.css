@@ -16,7 +16,7 @@
 .cabecera {
    min-height: 100vh;
    width: 100%;
-   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/imagen-banner.jpg);
+   background-image: url(../img/imagen-banner.jpg);
    background-position: center;
    background-size: cover;
    position: relative;
@@ -24,9 +24,10 @@
 
 nav {
     display: flex;
-    padding: 2% 6%;
+    padding: 0.3% 0.3%;
     justify-content: space-between;
     align-items: center;
+    background-color: #e7e0e0;
 }
 
 nav img {
@@ -42,12 +43,12 @@ nav img {
 .nav-enlaces ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 8px 26px;
     position: relative;
 }
 
 .nav-enlaces ul li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 19px;
 }
@@ -62,6 +63,8 @@ nav img {
     transition: 0.5s;
 }
 
+
+
 .nav-enlaces ul li:hover::after {
     width: 100%;
 
@@ -69,7 +72,7 @@ nav img {
 
 .caja-texto {
     width: 90%;
-    color: #fff;
+    color: #000;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,25 +88,24 @@ nav img {
 .caja-texto p {
     margin: 10px 0 40px;
     font-size: 29px;
-    color: #fff;  
+    color: #000;  
 }
 
 .btn-principal {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #fff;
     padding: 15px 34px;
     font-size: 18px;
     background: transparent;
     position: relative;
     cursor: pointer;
     border-radius: 20px;
+    background: #FC8250;
 }
 
 .btn-principal:hover {
-    border: 1px solid #FC8250;
-    background: #FC8250;
+    background: #f86429;
     transition: 0.5s;
     color: #fff;
 }
@@ -215,7 +217,7 @@ nav .fas {
     }
     nav .fas {
         display: block;
-        color: #fff;
+        color: #000;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
@@ -329,7 +331,6 @@ p {
 .capro-ventajas {
     width: 80%;
     margin: auto;
-    text-align: center;
     padding-top: 50px;
 }
 
@@ -341,13 +342,19 @@ p {
     overflow: hidden;
 }
 
+.ventajas-columna li {
+    font-size:25px;
+    list-style-type: "✔️";
+}
+
+
 .container-ventajas h1 {
     margin-top:20px;
     margin-bottom:20px;
 }
 
 .listado-ventajas {
-    width: 30%;
+    width: 0%;
     text-align:left;
     margin-top: 20px;
     font-size:19px;
@@ -363,37 +370,7 @@ p {
     display: block;
 }
 
-.capa {
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
-}
 
-.capa h3 {
-    margin-top:10px;
-    color: #fff;
-    width: 100%;
-    font-weight: 500;
-    font-size: 26px;
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
-    translate: translateX(-25%);
-    bottom: 0;
-}
-
-.capa:hover {
-    background: rgba(252,130,80,0.8);  
-}
-
-.capa:hover h3 {
-    bottom: 49%;
-    opacity: 1;
-}
 
 .sobre-nosotros {
     width: 100%;
