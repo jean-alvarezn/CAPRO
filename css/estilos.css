@@ -14,9 +14,9 @@
 
 /*Propiedades de la cabecera*/
 .cabecera {
-   min-height: 100vh;
+   min-height: 70vh;
    width: 100%;
-   background-image: url(../img/imagen-banner.jpg);
+   background-image: linear-gradient(rgba(10, 19, 105, 0.70),  rgba(10, 19, 105, 0.70)),url(../img/imagen-banner.jpg) ;
    background-position: center;
    background-size: cover;
    position: relative;
@@ -31,7 +31,7 @@ nav {
 }
 
 nav img {
-    width: 150px;
+    width: 250px;
     
 
 }
@@ -51,7 +51,7 @@ nav img {
 .nav-enlaces ul li a {
     color: #000;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 27px;
 }
 
 .nav-enlaces ul li::after {
@@ -351,7 +351,7 @@ p {
 }
 
 .ventajas-columna li {
-    font-size:28px;
+    font-size:25px;
     list-style-type: "✔️";
 }
 
