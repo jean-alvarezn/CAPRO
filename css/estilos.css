@@ -27,11 +27,12 @@ nav {
     padding: 0.3% 0.3%;
     justify-content: space-between;
     align-items: center;
-    background-color: #e7e0e0;
+    background-color: #fff;
 }
 
 nav img {
     width: 150px;
+    
 
 }
 
@@ -72,7 +73,7 @@ nav img {
 
 .caja-texto {
     width: 90%;
-    color: #000;
+    color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -88,7 +89,7 @@ nav img {
 .caja-texto p {
     margin: 10px 0 40px;
     font-size: 29px;
-    color: #000;  
+    color: #fff;  
 }
 
 .btn-principal {
@@ -301,6 +302,12 @@ p {
     justify-content: left;
 }
 
+.modal-body p {
+    font-size: 27px;
+    line-height: 39px;
+    
+}
+
 .modal-footer button {
     text-align: center;
     justify-content: center;
@@ -340,10 +347,11 @@ p {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    margin-left: 90px;
 }
 
 .ventajas-columna li {
-    font-size:25px;
+    font-size:28px;
     list-style-type: "✔️";
 }
 
