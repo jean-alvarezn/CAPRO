@@ -538,17 +538,24 @@ footer {
     box-sizing: border-box;
 }
 
+
+#labelFormulario {
+     font-size:25px;
+}
+
+
+
 .boton-formulario {
     display: inline-block;
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
     padding: 15px 34px;
-    font-size: 13px;
+    font-size: 23px;
     position: relative;
     cursor: pointer;
     border-radius: 25px;
-    width: 150px; 
+    width: 170px; 
     background-color: #FC8250;
 }
 
