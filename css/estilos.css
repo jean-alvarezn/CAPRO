@@ -529,7 +529,7 @@ footer {
     color: #555;
 }
 
-.columna-contacto input, .columna-contacto textarea {
+.columna-contacto #nombre,#empresa,#email,#telefono,#asunto, .columna-contacto textarea {
     width: 100%;
     padding: 15px;
     margin-bottom: 17px;
@@ -541,6 +541,16 @@ footer {
 
 #labelFormulario {
      font-size:25px;
+}
+
+.form-check label{
+    font-size:25px;
+    margin-left: 20px;
+}
+
+.form-check input {
+    width:20px;
+    height:20px;
 }
 
 
